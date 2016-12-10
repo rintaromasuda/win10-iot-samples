@@ -8,6 +8,17 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <Slider
+            x:Name="DutyCycleSlider"
+            VerticalAlignment="Center" 
+            HorizontalAlignment="Center"
+            Minimum="0.0"
+            Maximum="1.0"
+            Value="0.5"
+            StepFrequency="0.05"
+            TickFrequency="0.1"
+            Width="500"
+            ValueChanged="DutyCycleSlider_ValueChanged"
+        />
     </Grid>
 </Page>
