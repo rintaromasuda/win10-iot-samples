@@ -8,6 +8,16 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <StackPanel
+            Orientation="Horizontal"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            >
+            <Button x:Name="Left90Button" Content="Left 90" Margin="5,0,5,0" Click="Left90Button_Click" />
+            <Button x:Name="Left45Buttono" Content="Left 45" Margin="5,0,5,0" Click="Left45Buttono_Click"/>
+            <Button x:Name="CenterButton" Content="Center" Margin="5,0,5,0" Click="CenterButton_Click"/>
+            <Button x:Name="Right45Button" Content="Right 45" Margin="5,0,5,0" Click="Right45Button_Click"/>
+            <Button x:Name="Right90Button" Content="Right 90" Margin="5,0,5,0" Click="Right90Button_Click"/>
+        </StackPanel>
     </Grid>
 </Page>
